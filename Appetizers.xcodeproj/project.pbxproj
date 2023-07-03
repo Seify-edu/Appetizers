@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552136222A52D88100F9E373 /* AppetizersApp.swift */; };
-		552136252A52D88100F9E373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552136242A52D88100F9E373 /* ContentView.swift */; };
+		552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552136242A52D88100F9E373 /* AppetizerTabView.swift */; };
 		552136272A52D88200F9E373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552136262A52D88200F9E373 /* Assets.xcassets */; };
 		5521362A2A52D88200F9E373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552136292A52D88200F9E373 /* Preview Assets.xcassets */; };
+		55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54582A52E5AB0093A1EE /* AppetizerListView.swift */; };
+		55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545A2A52E5C30093A1EE /* AccountView.swift */; };
+		55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545C2A52E5D80093A1EE /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5521361F2A52D88100F9E373 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552136222A52D88100F9E373 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		552136242A52D88100F9E373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		552136242A52D88100F9E373 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		552136262A52D88200F9E373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552136292A52D88200F9E373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55FC54582A52E5AB0093A1EE /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		55FC545A2A52E5C30093A1EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		55FC545C2A52E5D80093A1EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				552136222A52D88100F9E373 /* AppetizersApp.swift */,
-				552136242A52D88100F9E373 /* ContentView.swift */,
+				552136242A52D88100F9E373 /* AppetizerTabView.swift */,
+				55FC54582A52E5AB0093A1EE /* AppetizerListView.swift */,
+				55FC545A2A52E5C30093A1EE /* AccountView.swift */,
+				55FC545C2A52E5D80093A1EE /* OrderView.swift */,
 				552136262A52D88200F9E373 /* Assets.xcassets */,
 				552136282A52D88200F9E373 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552136252A52D88100F9E373 /* ContentView.swift in Sources */,
+				55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */,
+				552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */,
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
+				55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */,
+				55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
