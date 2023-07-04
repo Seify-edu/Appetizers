@@ -16,6 +16,8 @@
 		55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545C2A52E5D80093A1EE /* OrderView.swift */; };
 		55FC545F2A52F4FE0093A1EE /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545E2A52F4FE0093A1EE /* Appetizer.swift */; };
 		55FC54612A530E610093A1EE /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54602A530E610093A1EE /* AppetizerListCell.swift */; };
+		55FC54632A5318E00093A1EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54622A5318E00093A1EE /* NetworkManager.swift */; };
+		55FC54652A531A7A0093A1EE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54642A531A7A0093A1EE /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		55FC545C2A52E5D80093A1EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		55FC545E2A52F4FE0093A1EE /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		55FC54602A530E610093A1EE /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		55FC54622A5318E00093A1EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		55FC54642A531A7A0093A1EE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				55FC545A2A52E5C30093A1EE /* AccountView.swift */,
 				55FC545C2A52E5D80093A1EE /* OrderView.swift */,
 				55FC545E2A52F4FE0093A1EE /* Appetizer.swift */,
+				55FC54622A5318E00093A1EE /* NetworkManager.swift */,
+				55FC54642A531A7A0093A1EE /* APError.swift */,
 				552136262A52D88200F9E373 /* Assets.xcassets */,
 				552136282A52D88200F9E373 /* Preview Content */,
 			);
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FC545F2A52F4FE0093A1EE /* Appetizer.swift in Sources */,
+				55FC54652A531A7A0093A1EE /* APError.swift in Sources */,
 				55FC54612A530E610093A1EE /* AppetizerListCell.swift in Sources */,
 				55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */,
 				552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */,
+				55FC54632A5318E00093A1EE /* NetworkManager.swift in Sources */,
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
 				55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */,
 				55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */,
