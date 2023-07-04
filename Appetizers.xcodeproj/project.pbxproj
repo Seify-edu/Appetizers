@@ -22,6 +22,7 @@
 		55FC54692A5422450093A1EE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54682A5422450093A1EE /* Alert.swift */; };
 		55FC546B2A54353B0093A1EE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC546A2A54353B0093A1EE /* LoadingView.swift */; };
 		55FC546D2A5436460093A1EE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC546C2A5436460093A1EE /* Color+Ext.swift */; };
+		55FC546F2A54650D0093A1EE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC546E2A54650D0093A1EE /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		55FC54682A5422450093A1EE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		55FC546A2A54353B0093A1EE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		55FC546C2A5436460093A1EE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		55FC546E2A54650D0093A1EE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				55FC54642A531A7A0093A1EE /* APError.swift */,
 				55FC545E2A52F4FE0093A1EE /* Appetizer.swift */,
 				55FC54622A5318E00093A1EE /* NetworkManager.swift */,
+				55FC546E2A54650D0093A1EE /* RemoteImage.swift */,
 				552136262A52D88200F9E373 /* Assets.xcassets */,
 				552136282A52D88200F9E373 /* Preview Content */,
 			);
@@ -179,6 +182,7 @@
 				55FC546B2A54353B0093A1EE /* LoadingView.swift in Sources */,
 				552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */,
 				55FC54632A5318E00093A1EE /* NetworkManager.swift in Sources */,
+				55FC546F2A54650D0093A1EE /* RemoteImage.swift in Sources */,
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
 				55FC54692A5422450093A1EE /* Alert.swift in Sources */,
 				55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */,
