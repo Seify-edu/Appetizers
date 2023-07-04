@@ -11,6 +11,7 @@ import SwiftUI
 final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem? = nil
+    @Published var isLoading: Bool = false
     let navigationTitle = "Appetizers"
 
     func onAppear() {
@@ -19,6 +20,7 @@ final class AppetizerListViewModel: ObservableObject {
 
     func getAppetizers() {
         alertItem = nil
+        isLoading = true
 
         NetworkManager.shared.getAppetizers { result in
             DispatchQueue.main.async {
@@ -37,6 +39,7 @@ final class AppetizerListViewModel: ObservableObject {
                         self.alertItem = AlertContext.unableToComplete
                     }
                 }
+                self.isLoading = false
             }
         }
     }

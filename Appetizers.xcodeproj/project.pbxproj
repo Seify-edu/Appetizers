@@ -20,6 +20,8 @@
 		55FC54652A531A7A0093A1EE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54642A531A7A0093A1EE /* APError.swift */; };
 		55FC54672A5416600093A1EE /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54662A5416600093A1EE /* AppetizerListViewModel.swift */; };
 		55FC54692A5422450093A1EE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54682A5422450093A1EE /* Alert.swift */; };
+		55FC546B2A54353B0093A1EE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC546A2A54353B0093A1EE /* LoadingView.swift */; };
+		55FC546D2A5436460093A1EE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC546C2A5436460093A1EE /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		55FC54642A531A7A0093A1EE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		55FC54662A5416600093A1EE /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		55FC54682A5422450093A1EE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		55FC546A2A54353B0093A1EE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		55FC546C2A5436460093A1EE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				55FC54602A530E610093A1EE /* AppetizerListCell.swift */,
 				55FC545A2A52E5C30093A1EE /* AccountView.swift */,
 				55FC545C2A52E5D80093A1EE /* OrderView.swift */,
+				55FC546C2A5436460093A1EE /* Color+Ext.swift */,
+				55FC546A2A54353B0093A1EE /* LoadingView.swift */,
 				55FC54682A5422450093A1EE /* Alert.swift */,
 				55FC54642A531A7A0093A1EE /* APError.swift */,
 				55FC545E2A52F4FE0093A1EE /* Appetizer.swift */,
@@ -168,7 +174,9 @@
 				55FC54652A531A7A0093A1EE /* APError.swift in Sources */,
 				55FC54612A530E610093A1EE /* AppetizerListCell.swift in Sources */,
 				55FC54672A5416600093A1EE /* AppetizerListViewModel.swift in Sources */,
+				55FC546D2A5436460093A1EE /* Color+Ext.swift in Sources */,
 				55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */,
+				55FC546B2A54353B0093A1EE /* LoadingView.swift in Sources */,
 				552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */,
 				55FC54632A5318E00093A1EE /* NetworkManager.swift in Sources */,
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
