@@ -26,6 +26,9 @@
 		55FC54762A557D630093A1EE /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54752A557D630093A1EE /* AppetizerDetailView.swift */; };
 		55FC54782A55BB7E0093A1EE /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54772A55BB7E0093A1EE /* APButton.swift */; };
 		55FC547A2A55BC700093A1EE /* APButtonClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54792A55BC700093A1EE /* APButtonClose.swift */; };
+		55FC547D2A56C4F10093A1EE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC547C2A56C4F10093A1EE /* AccountViewModel.swift */; };
+		55FC547F2A56CA9E0093A1EE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC547E2A56CA9E0093A1EE /* String+Ext.swift */; };
+		55FC54832A56DB970093A1EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54822A56DB970093A1EE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		55FC54752A557D630093A1EE /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		55FC54772A55BB7E0093A1EE /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		55FC54792A55BC700093A1EE /* APButtonClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButtonClose.swift; sourceTree = "<group>"; };
+		55FC547C2A56C4F10093A1EE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		55FC547E2A56CA9E0093A1EE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		55FC54822A56DB970093A1EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,7 @@
 			children = (
 				552136242A52D88100F9E373 /* AppetizerTabView.swift */,
 				55FC54712A5579F60093A1EE /* AppetizerListView */,
-				55FC545A2A52E5C30093A1EE /* AccountView.swift */,
+				55FC547B2A55C4B90093A1EE /* AccountView */,
 				55FC545C2A52E5D80093A1EE /* OrderView.swift */,
 			);
 			path = Screens;
@@ -126,7 +132,6 @@
 		55FC54722A557A370093A1EE /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				55FC54642A531A7A0093A1EE /* APError.swift */,
 				55FC54622A5318E00093A1EE /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -146,10 +151,22 @@
 		55FC54742A557A970093A1EE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				55FC54642A531A7A0093A1EE /* APError.swift */,
 				55FC54682A5422450093A1EE /* Alert.swift */,
 				55FC546C2A5436460093A1EE /* Color+Ext.swift */,
+				55FC547E2A56CA9E0093A1EE /* String+Ext.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		55FC547B2A55C4B90093A1EE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				55FC54822A56DB970093A1EE /* User.swift */,
+				55FC545A2A52E5C30093A1EE /* AccountView.swift */,
+				55FC547C2A56C4F10093A1EE /* AccountViewModel.swift */,
+			);
+			path = AccountView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,14 +243,17 @@
 				55FC54652A531A7A0093A1EE /* APError.swift in Sources */,
 				55FC54612A530E610093A1EE /* AppetizerListCell.swift in Sources */,
 				55FC547A2A55BC700093A1EE /* APButtonClose.swift in Sources */,
+				55FC547D2A56C4F10093A1EE /* AccountViewModel.swift in Sources */,
 				55FC54672A5416600093A1EE /* AppetizerListViewModel.swift in Sources */,
 				55FC546D2A5436460093A1EE /* Color+Ext.swift in Sources */,
 				55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */,
+				55FC54832A56DB970093A1EE /* User.swift in Sources */,
 				55FC54782A55BB7E0093A1EE /* APButton.swift in Sources */,
 				55FC546B2A54353B0093A1EE /* LoadingView.swift in Sources */,
 				552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */,
 				55FC54632A5318E00093A1EE /* NetworkManager.swift in Sources */,
 				55FC546F2A54650D0093A1EE /* RemoteImage.swift in Sources */,
+				55FC547F2A56CA9E0093A1EE /* String+Ext.swift in Sources */,
 				55FC54762A557D630093A1EE /* AppetizerDetailView.swift in Sources */,
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
 				55FC54692A5422450093A1EE /* Alert.swift in Sources */,
