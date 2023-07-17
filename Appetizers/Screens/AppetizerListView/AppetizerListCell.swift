@@ -11,10 +11,16 @@ struct AppetizerListCell: View {
     let appetizer: Appetizer
     var body: some View {
         HStack() {
-            AppetizerRemoteImage(urlString: appetizer.imageURL)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 120, height: 90)
-                .cornerRadius(8)
+            //Use AppetizerRemoteImage instead of AsyncImage if cache is needed
+            AsyncImage(url: URL(string: appetizer.imageURL)) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 120, height: 90)
+                    .cornerRadius(8)
+            } placeholder: {
+                Image("food-placeholder")
+            }
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)
                     .font(.title2)

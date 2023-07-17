@@ -12,6 +12,7 @@
 		552136252A52D88100F9E373 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552136242A52D88100F9E373 /* AppetizerTabView.swift */; };
 		552136272A52D88200F9E373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552136262A52D88200F9E373 /* Assets.xcassets */; };
 		5521362A2A52D88200F9E373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552136292A52D88200F9E373 /* Preview Assets.xcassets */; };
+		55C06EE92A5F27E5004B6E37 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C06EE82A5F27E5004B6E37 /* CustomModifiers.swift */; };
 		55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC54582A52E5AB0093A1EE /* AppetizerListView.swift */; };
 		55FC545B2A52E5C30093A1EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545A2A52E5C30093A1EE /* AccountView.swift */; };
 		55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC545C2A52E5D80093A1EE /* OrderView.swift */; };
@@ -41,6 +42,7 @@
 		552136242A52D88100F9E373 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		552136262A52D88200F9E373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552136292A52D88200F9E373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C06EE82A5F27E5004B6E37 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		55FC54582A52E5AB0093A1EE /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		55FC545A2A52E5C30093A1EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		55FC545C2A52E5D80093A1EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				55FC54772A55BB7E0093A1EE /* APButton.swift */,
 				55FC54792A55BC700093A1EE /* APButtonClose.swift */,
 				55FC54892A5833560093A1EE /* EmptyStateView.swift */,
+				55C06EE82A5F27E5004B6E37 /* CustomModifiers.swift */,
 			);
 			path = "Shared Views";
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				552136232A52D88100F9E373 /* AppetizersApp.swift in Sources */,
 				55FC54692A5422450093A1EE /* Alert.swift in Sources */,
 				550A6C032A5C742400135A81 /* Order.swift in Sources */,
+				55C06EE92A5F27E5004B6E37 /* CustomModifiers.swift in Sources */,
 				55FC54592A52E5AB0093A1EE /* AppetizerListView.swift in Sources */,
 				55FC545D2A52E5D80093A1EE /* OrderView.swift in Sources */,
 			);

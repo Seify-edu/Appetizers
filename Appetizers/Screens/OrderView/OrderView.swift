@@ -25,8 +25,9 @@ struct OrderView: View {
                     Button {
 
                     } label: {
-                        APButton(title: "Place Order : $\(order.totalPrice, specifier: "%.2f")")
+                        Text("Place Order : $\(order.totalPrice, specifier: "%.2f")")
                     }
+                    .modifier(StandardButtonStyle())
                     .padding(.bottom)
                 }
                 if order.appetizers.count == 0 {
